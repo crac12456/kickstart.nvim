@@ -166,7 +166,7 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
-vim.o.tabstop = 4
+vim.o.tabstop = 2
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
@@ -215,7 +215,12 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- vim.keymap.set("n", "<C-S-l>", "<C-w>L", { desc = "Move window to the right" })
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
-
+--
+-- vim.keymap.set('n', '<A-h>', require('smart-splits').resize_left)
+-- vim.keymap.set('n', '<A-j>', require('smart-splits').resize_down)
+-- vim.keymap.set('n', '<A-k>', require('smart-splits').resize_up)
+-- vim.keymap.set('n', '<A-l>', require('smart-splits').resize_right)
+--
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
