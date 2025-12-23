@@ -18,15 +18,16 @@ return {
     workspaces = {
       {
         name = 'personal',
-        path = '~/notes/obsididian-notas',
-      },
-      templates = {
-        folder = { '~/notes/obsidian-notas/999-plantillas/' },
-        date_format = 'Y%-M%-D%',
-      },
-    },
-    -- vim.keymap('n', '<leader>od', '<cmd>Obsidian today'),
+        path = '/home/eliel/notes/obsidian-notas',
 
-    -- see below for full list of options 👇
+        templates = {
+          folder = { '/home/eliel/notes/obsidian-notas/999-plantillas/' },
+          date_format = 'Y%-M%-D%',
+        },
+      },
+      -- vim.keymap('n', '<leader>od', '<cmd>Obsidian today'),
+
+      -- see below for full list of options 👇
+    },
   },
 }
