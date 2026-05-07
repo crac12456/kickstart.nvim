@@ -23,11 +23,12 @@ return {
         templates = {
           folder = { '/home/eliel/notes/obsidian-notas/999-plantillas/' },
           date_format = 'Y%-M%-D%',
+          dailyes = '/home/eliel/notes/obsidian-notas/999-plantillas/{{date}}.md',
         },
       },
-      -- vim.keymap('n', '<leader>od', '<cmd>Obsidian today'),
 
       -- see below for full list of options 👇
     },
+    -- vim.keymap('n', '<leader>od', '<cmd>Obsidian today'),
   },
 }
