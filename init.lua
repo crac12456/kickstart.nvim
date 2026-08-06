@@ -174,8 +174,9 @@ vim.o.tabstop = 4
 -- NOTE: Tema <3
 vim.api.nvim_create_autocmd('VimEnter', {
   pattern = '*',
-  command = 'colorscheme jellybeans-hc',
+  command = 'colorscheme rose-pine',
 })
+-- jellybeans-hc
 
 vim.keymap.set('i', '<M-q>', '()')
 vim.keymap.set('i', '<M-w>', ')')
