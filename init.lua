@@ -176,6 +176,7 @@ vim.api.nvim_create_autocmd('VimEnter', {
   pattern = '*',
   command = 'colorscheme rose-pine',
 })
+
 -- jellybeans-hc
 
 vim.keymap.set('i', '<M-q>', '()')

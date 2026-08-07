@@ -29,6 +29,7 @@ return {
 
       -- see below for full list of options 👇
     },
-    -- vim.keymap('n', '<leader>od', '<cmd>Obsidian today'),
+    vim.keymap.set('n', '<leader>o', '<cmd>Obsidian', { desc = '[O]bsidian' }),
+    vim.keymap.set('n', '<leader>ot', '<cmd>Obsidian today', { desc = 'Obsidian [T]oday' }),
   },
 }
