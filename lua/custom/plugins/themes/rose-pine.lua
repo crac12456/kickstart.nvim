@@ -6,7 +6,7 @@ return {
     require('rose-pine').setup {
       pallete = {
         base = '#000000',
-        bg = '#000000',
+        -- bg = '#000000',
       },
     }
     vim.cmd 'colorscheme rose-pine'
@@ -19,6 +19,9 @@ return {
         options = {
           --- @usage 'rose-pine' | 'rose-pine-alt'
           theme = 'rose-pine',
+        },
+        styles = {
+          transparency = true,
         },
       }
     end,
